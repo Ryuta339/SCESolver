@@ -5,5 +5,6 @@ classdef AbsSelfConsistentEquation < handle
 	
 	methods (Abstract)
 		selfConsistentEquation(obj, op, params)
+		initOP(obj, params);
 	end
 end
